@@ -12,6 +12,25 @@ body{
   width: 100vw;
 }
 
+.productos{
+  background-image: url(../img/prod.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  opacity: .7;
+
+}
+
+.eventos{
+  background-image: url(../img/organic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  opacity: .7;
+
+}
 
 /*NAVBAR*/
 .navbar{
@@ -163,4 +182,20 @@ p{
 .white{
   background-color: white;
   padding: 5vh 0vw;
+}
+
+.card-deck{
+  margin: 2% 0% 0;
+  text-align: center;
+}
+
+.container-fluid{
+  background-color: white;
+}
+
+.btn-secondary{
+margin: 25%;
+  width: 50%;
+background-color: transparent;
+font-weight: bold;
 }
